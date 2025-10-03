@@ -11,7 +11,8 @@ Welcome to my learning notes on the Vercel AI SDK! This repository contains prac
 5. [Streaming Structured Objects](./stream-object.md) - Using `streamObject()` for real-time object generation
 6. [Advanced: Intent Detection](./generate-object-advanced.md) - Handling multiple schemas with smart intent detection
 7. [AI Tools (Function Calling)](./tools.md) - Teaching AI to use functions and interact with external systems
-8. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
+8. [Advanced Tool Calling](./tool-calling.md) - Multi-step calls, tool control, and advanced patterns
+9. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
 
 ## 🚀 Live Examples
 
@@ -62,8 +63,9 @@ Frontend (real-time updates)
 4. Discover [Generating Objects](./generate-object.md) for structured data
 5. Learn [Streaming Objects](./stream-object.md) for real-time structured data
 6. Master [AI Tools](./tools.md) to build intelligent agents
-7. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
-8. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
+7. Deep dive into [Advanced Tool Calling](./tool-calling.md) for multi-step agentic flows
+8. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
+9. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
 
 ## 🎓 Perfect For
 
