@@ -7,8 +7,10 @@ Welcome to my learning notes on the Vercel AI SDK! This repository contains prac
 1. [Next.js Route Handlers](./nextjs-routes.md) - Understanding how API routes work in Next.js vs Express
 2. [Generating Text](./generating-text.md) - Using `generateText()` for one-off text generation
 3. [Streaming Text](./streaming-text.md) - Using `streamText()` and `fullStream` for real-time responses
-4. [AI Tools (Function Calling)](./tools.md) - Teaching AI to use functions and interact with external systems
-5. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
+4. [Generating Structured Objects](./generate-object.md) - Using `generateObject()` for type-safe structured data
+5. [Advanced: Intent Detection](./generate-object-advanced.md) - Handling multiple schemas with smart intent detection
+6. [AI Tools (Function Calling)](./tools.md) - Teaching AI to use functions and interact with external systems
+7. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
 
 ## 🚀 Live Examples
 
@@ -17,6 +19,8 @@ This repository includes working examples:
 - **`/chat`** - Interactive chatbot using `useChat()` hook
 - **`/generating-text`** - Article summarizer using `generateText()`
 - **`/stream-text`** - Real-time streaming with tool calling and `fullStream`
+- **`/generate-object`** - Structured data generation with `generateObject()` (recipes, lists, classification)
+- **`/generate-object-smart`** - Smart intent detection with multiple schemas
 
 ## 🎯 Key Takeaways
 
@@ -53,8 +57,10 @@ Frontend (real-time updates)
 1. Start with [Next.js Routes](./nextjs-routes.md) to understand the foundation
 2. Learn [Generating Text](./generating-text.md) for basic AI integration
 3. Explore [Streaming Text](./streaming-text.md) for real-time responses
-4. Master [AI Tools](./tools.md) to build intelligent agents
-5. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
+4. Discover [Generating Objects](./generate-object.md) for structured data
+5. Master [AI Tools](./tools.md) to build intelligent agents
+6. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
+7. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
 
 ## 🎓 Perfect For
 
