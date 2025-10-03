@@ -8,9 +8,10 @@ Welcome to my learning notes on the Vercel AI SDK! This repository contains prac
 2. [Generating Text](./generating-text.md) - Using `generateText()` for one-off text generation
 3. [Streaming Text](./streaming-text.md) - Using `streamText()` and `fullStream` for real-time responses
 4. [Generating Structured Objects](./generate-object.md) - Using `generateObject()` for type-safe structured data
-5. [Advanced: Intent Detection](./generate-object-advanced.md) - Handling multiple schemas with smart intent detection
-6. [AI Tools (Function Calling)](./tools.md) - Teaching AI to use functions and interact with external systems
-7. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
+5. [Streaming Structured Objects](./stream-object.md) - Using `streamObject()` for real-time object generation
+6. [Advanced: Intent Detection](./generate-object-advanced.md) - Handling multiple schemas with smart intent detection
+7. [AI Tools (Function Calling)](./tools.md) - Teaching AI to use functions and interact with external systems
+8. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
 
 ## 🚀 Live Examples
 
@@ -21,6 +22,7 @@ This repository includes working examples:
 - **`/stream-text`** - Real-time streaming with tool calling and `fullStream`
 - **`/generate-object`** - Structured data generation with `generateObject()` (recipes, lists, classification)
 - **`/generate-object-smart`** - Smart intent detection with multiple schemas
+- **`/stream-object`** - Real-time streaming object generation with intent detection
 
 ## 🎯 Key Takeaways
 
@@ -58,9 +60,10 @@ Frontend (real-time updates)
 2. Learn [Generating Text](./generating-text.md) for basic AI integration
 3. Explore [Streaming Text](./streaming-text.md) for real-time responses
 4. Discover [Generating Objects](./generate-object.md) for structured data
-5. Master [AI Tools](./tools.md) to build intelligent agents
-6. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
-7. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
+5. Learn [Streaming Objects](./stream-object.md) for real-time structured data
+6. Master [AI Tools](./tools.md) to build intelligent agents
+7. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
+8. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
 
 ## 🎓 Perfect For
 
