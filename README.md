@@ -114,35 +114,35 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 
 ```
 vercel-ai-sdk-core-examples/
-â”œâ”€â”€ app/
-â”‚   â”œâ”€â”€ api/
-â”‚   â”‚   â”œâ”€â”€ chat/route.ts              # Chat API endpoint
-â”‚   â”‚   â”œâ”€â”€ generating-text/route.ts   # Text generation API
-â”‚   â”‚   â”œâ”€â”€ stream-text/route.ts       # Streaming + tools API
-â”‚   â”‚   â”œâ”€â”€ generate-object/route.ts   # Structured data API
-â”‚   â”‚   â”œâ”€â”€ generate-object-smart/route.ts  # Intent detection API
-â”‚   â”‚   â”œâ”€â”€ stream-object/route.ts     # Streaming objects API
-â”‚   â”‚   â””â”€â”€ mcp-demo/route.ts          # MCP demo API
-â”‚   â”œâ”€â”€ generating-text/page.tsx       # Text generation UI
-â”‚   â”œâ”€â”€ stream-text/page.tsx           # Streaming demo UI
-â”‚   â”œâ”€â”€ generate-object/page.tsx       # Object generation UI
-â”‚   â”œâ”€â”€ generate-object-smart/page.tsx # Smart intent UI
-â”‚   â”œâ”€â”€ stream-object/page.tsx         # Streaming objects UI
-â”‚   â”œâ”€â”€ mcp-demo/page.tsx              # MCP demo UI
-â”‚   â””â”€â”€ page.tsx                       # Chat UI (home)
-â”œâ”€â”€ notes/
-â”‚   â”œâ”€â”€ README.md                      # Notes index
-â”‚   â”œâ”€â”€ nextjs-routes.md               # Next.js API routes explained
-â”‚   â”œâ”€â”€ generating-text.md             # generateText() guide
-â”‚   â”œâ”€â”€ streaming-text.md              # streamText() guide
-â”‚   â”œâ”€â”€ generate-object.md             # generateObject() guide
-â”‚   â”œâ”€â”€ generate-object-advanced.md    # Intent detection guide
-â”‚   â”œâ”€â”€ stream-object.md               # streamObject() guide
-â”‚   â”œâ”€â”€ tools.md                       # Basic tool calling
-â”‚   â”œâ”€â”€ tool-calling.md                # Advanced tool calling
-â”‚   â”œâ”€â”€ mcp-tools.md                   # MCP explained
-â”‚   â”œâ”€â”€ prompt-engineering.md          # Prompt engineering guide
-â”‚   â””â”€â”€ react-vs-nextjs.md             # React vs Next.js for AI
+app/
+   api/
+      chat/route.ts              # Chat API endpoint
+      generating-text/route.ts   # Text generation API
+      stream-text/route.ts       # Streaming + tools API
+      generate-object/route.ts   # Structured data API
+      generate-object-smart/route.ts  # Intent detection API
+      stream-object/route.ts     # Streaming objects API
+      mcp-demo/route.ts          # MCP demo API
+   generating-text/page.tsx       # Text generation UI
+   stream-text/page.tsx           # Streaming demo UI
+   generate-object/page.tsx       # Object generation UI
+   generate-object-smart/page.tsx # Smart intent UI
+   stream-object/page.tsx         # Streaming objects UI
+   mcp-demo/page.tsx              # MCP demo UI
+   page.tsx                       # Chat UI (home)
+notes/
+   README.md                      # Notes index
+   nextjs-routes.md               # Next.js API routes explained
+   generating-text.md             # generateText() guide
+   streaming-text.md              # streamText() guide
+   generate-object.md             # generateObject() guide
+   generate-object-advanced.md    # Intent detection guide
+   stream-object.md               # streamObject() guide
+   tools.md                       # Basic tool calling
+   tool-calling.md                # Advanced tool calling
+   mcp-tools.md                   # MCP explained
+   prompt-engineering.md          # Prompt engineering guide
+   react-vs-nextjs.md             # React vs Next.js for AI
 └── .env.local                         # Environment variables
 ```
 
@@ -213,7 +213,7 @@ Start with the `/notes` folder for comprehensive guides:
 5. **Smart Routing**: Intent-based response generation
 6. **External Integration**: GitHub MCP for live data
 
-## ðŸ¤ Contributing
+## Contributing
 
 Feel free to:
 - Add new examples
@@ -221,11 +221,11 @@ Feel free to:
 - Fix bugs
 - Suggest features
 
-## ðŸ“„ License
+## License
 
 MIT License - See LICENSE file
 
-## ðŸ™ Acknowledgments
+## Acknowledgments
 
 - [Vercel AI SDK Documentation](https://ai-sdk.dev)
 - [Next.js Documentation](https://nextjs.org/docs)
