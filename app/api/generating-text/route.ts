@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     const { article } = await req.json();
 
     const { text } = await generateText({
-      model: google('gemini-2.0-flash-exp'),
+      model: google('gemini-2.5-flash'),
       system:
         'You are a professional writer. ' +
         'You write simple, clear, and concise content.',
