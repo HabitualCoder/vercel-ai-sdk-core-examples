@@ -12,18 +12,21 @@ Welcome to my learning notes on the Vercel AI SDK! This repository contains prac
 6. [Advanced: Intent Detection](./generate-object-advanced.md) - Handling multiple schemas with smart intent detection
 7. [AI Tools (Function Calling)](./tools.md) - Teaching AI to use functions and interact with external systems
 8. [Advanced Tool Calling](./tool-calling.md) - Multi-step calls, tool control, and advanced patterns
-9. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
+9. [Model Context Protocol (MCP)](./mcp-tools.md) - Connecting AI to external tools and services
+10. [Prompt Engineering](./prompt-engineering.md) - Crafting effective prompts for tools and structured data
+11. [React vs Next.js for AI Apps](./react-vs-nextjs.md) - Why Next.js is ideal for AI applications
 
 ## 🚀 Live Examples
 
 This repository includes working examples:
 
-- **`/chat`** - Interactive chatbot using `useChat()` hook
+- **`/`** - Interactive chatbot using `useChat()` hook
 - **`/generating-text`** - Article summarizer using `generateText()`
 - **`/stream-text`** - Real-time streaming with tool calling and `fullStream`
 - **`/generate-object`** - Structured data generation with `generateObject()` (recipes, lists, classification)
 - **`/generate-object-smart`** - Smart intent detection with multiple schemas
 - **`/stream-object`** - Real-time streaming object generation with intent detection
+- **`/mcp-demo`** - Model Context Protocol demo with GitHub repository fetching
 
 ## 🎯 Key Takeaways
 
@@ -64,8 +67,10 @@ Frontend (real-time updates)
 5. Learn [Streaming Objects](./stream-object.md) for real-time structured data
 6. Master [AI Tools](./tools.md) to build intelligent agents
 7. Deep dive into [Advanced Tool Calling](./tool-calling.md) for multi-step agentic flows
-8. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
-9. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
+8. Explore [Model Context Protocol](./mcp-tools.md) to connect to external services
+9. Learn [Prompt Engineering](./prompt-engineering.md) for effective AI interactions
+10. Understand [Intent Detection](./generate-object-advanced.md) for flexible schemas
+11. Review [React vs Next.js](./react-vs-nextjs.md) for architectural decisions
 
 ## 🎓 Perfect For
 
