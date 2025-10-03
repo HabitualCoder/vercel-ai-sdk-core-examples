@@ -2,7 +2,7 @@
 
 A comprehensive collection of practical examples demonstrating the core features of the Vercel AI SDK. Built with Next.js 15, this repository serves as both a learning resource and reference implementation for AI-powered applications.
 
-## ðŸŽ¯ What's Inside
+## 🎯 What's Inside
 
 This project contains **working examples** of every major Vercel AI SDK Core feature:
 
@@ -53,7 +53,7 @@ This project contains **working examples** of every major Vercel AI SDK Core fea
 - Multi-step AI reasoning with `stopWhen`
 - Environment variable configuration
 
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -143,10 +143,10 @@ vercel-ai-sdk-core-examples/
 â”‚   â”œâ”€â”€ mcp-tools.md                   # MCP explained
 â”‚   â”œâ”€â”€ prompt-engineering.md          # Prompt engineering guide
 â”‚   â””â”€â”€ react-vs-nextjs.md             # React vs Next.js for AI
-â””â”€â”€ .env.local                         # Environment variables
+└── .env.local                         # Environment variables
 ```
 
-## ðŸ“š Learning Path
+## 📚 Learning Path
 
 Start with the `/notes` folder for comprehensive guides:
 
@@ -165,7 +165,7 @@ Start with the `/notes` folder for comprehensive guides:
    - `mcp-tools.md` - Model Context Protocol
    - `prompt-engineering.md` - Crafting effective prompts
 
-## ðŸ”§ Technologies Used
+## 🔧 Technologies Used
 
 - **Framework**: Next.js 15 (App Router)
 - **AI SDK**: Vercel AI SDK 5.x
@@ -175,36 +175,36 @@ Start with the `/notes` folder for comprehensive guides:
 - **Styling**: Tailwind CSS
 - **Package Manager**: pnpm
 
-## ðŸŽ“ Key Concepts Covered
+## 🎓 Key Concepts Covered
 
 ### AI SDK Features
-- âœ… `streamText()` - Streaming text generation
-- âœ… `generateText()` - Non-streaming generation
-- âœ… `generateObject()` - Structured data generation
-- âœ… `streamObject()` - Streaming structured data
-- âœ… `fullStream` - Complete event stream access
-- âœ… `partialObjectStream` - Real-time object construction
-- âœ… `tool()` - Function/tool calling
-- âœ… `stopWhen()` - Multi-step AI control
-- âœ… Model Context Protocol (MCP) integration
+- ✅ `streamText()` - Streaming text generation
+- ✅ `generateText()` - Non-streaming generation
+- ✅ `generateObject()` - Structured data generation
+- ✅ `streamObject()` - Streaming structured data
+- ✅ `fullStream` - Complete event stream access
+- ✅ `partialObjectStream` - Real-time object construction
+- ✅ `tool()` - Function/tool calling
+- ✅ `stopWhen()` - Multi-step AI control
+- ✅ Model Context Protocol (MCP) integration
 
 ### Next.js Patterns
-- âœ… App Router API routes (`route.ts`)
-- âœ… Server-side AI processing
-- âœ… Client-side streaming consumption
-- âœ… Environment variable management
-- âœ… TypeScript integration
+- ✅ App Router API routes (`route.ts`)
+- ✅ Server-side AI processing
+- ✅ Client-side streaming consumption
+- ✅ Environment variable management
+- ✅ TypeScript integration
 
 ### Best Practices
-- âœ… Temperature = 0 for structured outputs
-- âœ… `.nullable()` over `.optional()` for tool parameters
-- âœ… Semantic tool naming
-- âœ… Schema property descriptions
-- âœ… Error handling and loading states
-- âœ… Multi-step AI reasoning
-- âœ… Intent detection for flexible schemas
+- ✅ Temperature = 0 for structured outputs
+- ✅ `.nullable()` over `.optional()` for tool parameters
+- ✅ Semantic tool naming
+- ✅ Schema property descriptions
+- ✅ Error handling and loading states
+- ✅ Multi-step AI reasoning
+- ✅ Intent detection for flexible schemas
 
-## ðŸŽ¯ Use Cases Demonstrated
+## 🎯 Use Cases Demonstrated
 
 1. **Chatbots**: Real-time conversational AI
 2. **Content Generation**: Article summarization, content writing
@@ -232,7 +232,7 @@ MIT License - See LICENSE file
 - [Google AI Studio](https://aistudio.google.com)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 
-## ðŸ”— Useful Links
+## 🔗 Useful Links
 
 - [Vercel AI SDK Docs](https://ai-sdk.dev/docs)
 - [AI SDK GitHub](https://github.com/vercel/ai)
@@ -241,6 +241,6 @@ MIT License - See LICENSE file
 
 ---
 
-**Built for learning, designed for reference.** ðŸš€
+**Built for learning, designed for reference.** 🚀
 
 Each example is fully functional and documented. Use this as a starting point for your own AI-powered applications!
